@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #abd839;
+    color: #333;
+    text-align: center;
+  
+  
+    background-image: url(img1.jpg);
+    background-size: cover;
+  } 
+  
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00ffd9;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  #songInput {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #addSongBtn {
+    padding: 10px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #addSongBtn:hover {
+    background-color: #45a049;
+  }
+  
+  .playlist {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .playlist li {
+    background-color: #e9e9e9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .playlist li button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .playlist li button:hover {
+    background-color: #e60000;
+  }
+
+  
